@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+h1{
+    color:rgb(16, 13, 13);
+    font-size:30px;
+    font-style:italic;
+    font-style:bold;
+    margin-left: 10%;
+  
+
+}
+.navbar-list{
+    color:blue;
+    font-size:20px;
+    font-style: italic;
+    font-style: bold;
+    
+    
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none; /* Remove list bullets */
+    padding-bottom: 0;
+    margin-top: 0%; /* Remove default padding */
+    margin-left: 60%; /* Remove default margin */
+  }
+  
+  /* Style the individual list items */
+  .navbar-list li {
+    margin-right: 40px; /* Adjust the spacing between list items */
+  }
